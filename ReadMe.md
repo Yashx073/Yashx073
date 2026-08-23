@@ -1,104 +1,148 @@
 # Yash Mohadikar
 
-Machine Learning Engineer | AI Systems | MLOps
-Final-year Computer Engineering student building end-to-end ML systems and production-ready AI applications.
+### Machine Learning Engineer · AI Systems · MLOps
+
+Final-year Computer Engineering student building **end-to-end machine learning systems and production-ready AI applications**.
+
+I work across the ML lifecycle — from **data, model development and evaluation to API serving, monitoring, and deployment**.
 
 ---
 
 ## About Me
 
-I build **machine learning systems from data to deployment**.
+I build **production-oriented ML and AI systems** with a focus on:
 
-My work focuses on:
+* Machine Learning & Deep Learning
+* Retrieval-Augmented Generation (RAG)
+* ML Model Serving with FastAPI
+* Experiment Tracking & Evaluation with MLflow
+* Containerized ML Systems with Docker
+* Retrieval, Reranking & LLM Evaluation
+* AI Guardrails & Responsible AI
+* Observability and ML Monitoring
 
-* ML model development and evaluation
-* FastAPI model serving
-* ML experiment tracking with MLflow
-* Containerized ML systems using Docker
-* Building real-world AI applications
-
-I enjoy turning research ideas into **production-ready ML pipelines**.
+My goal is to turn **ML research ideas into reliable, measurable, production-ready systems**.
 
 ---
 
-## Featured Projects
+# Featured Projects
 
-### Credit Card Fraud Detection Platform
+## RAGForge — Production RAG System
 
-Production ML system with monitoring and deployment pipeline.
+A fully-local, production-oriented **Retrieval-Augmented Generation platform** with hybrid retrieval, cross-encoder reranking, guardrails, evaluation, and observability.
+
+**Tech:** Python, FastAPI, React, Vite, Tailwind CSS, Ollama, FAISS, BM25, Sentence Transformers, Docker
+
+### Highlights
+
+* Multi-format document ingestion — PDF, TXT, MD, HTML
+* **Hybrid retrieval** using FAISS + BM25
+* Cross-encoder reranking — **top-20 → top-5**
+* Local LLM inference using **Ollama + Qwen**
+* Citation-grounded responses
+* Prompt-injection detection and PII filtering
+* Retrieval evaluation using **Precision@K, Hit Rate and MRR**
+* Latency, token usage and cost tracking
+* React-based dashboard for chat, documents, evaluation and performance
+* **100% local inference — no API keys and no data leaves the machine**
+
+The system architecture includes a FastAPI backend, hybrid FAISS/BM25 retrieval, cross-encoder reranking, local LLM generation, guardrails and observability.
+
+**Repository:**
+https://github.com/Yashx073/RAGForge
+
+---
+
+## Credit Card Fraud Detection Platform
+
+Production ML system focused on **fraud detection, model serving, experiment tracking and monitoring**.
 
 **Tech:** Python, Scikit-learn, FastAPI, MLflow, PostgreSQL, Docker
 
-* Fraud detection model achieving **98% recall @ 90% precision**
-* FastAPI inference service with **<10 ms latency**
-* **MLflow experiment tracking** for model comparison
-* **Model drift monitoring pipeline**
-* Fully containerized deployment using **Docker**
+### Highlights
 
-Repo:
+* **98% recall @ 90% precision**
+* FastAPI inference service with **<10 ms latency**
+* MLflow experiment tracking
+* Model drift monitoring pipeline
+* Fully containerized deployment with Docker
+
+**Repository:**
 https://github.com/Yashx073/fastapi-production-template
 
 ---
 
-### AI Debate Coach
+## AI Debate Coach
 
-Multimodal AI system for analyzing debate performance from video.
+Multimodal AI system that analyzes debate performance from **video → transcript → ML analytics → feedback**.
 
 **Tech:** Python, Streamlit, Whisper, MediaPipe, Librosa, Transformers
 
-* Multimodal analysis pipeline processing **video → transcript → analytics**
-* **8 ML modules** including STT, NLP analysis, voice metrics, posture detection
-* Trained NLP models on **792+ labeled debate samples**
-* Real-time feedback system with recommendation engine
+### Highlights
 
-Repo:
+* Multimodal video analysis pipeline
+* Speech-to-text using Whisper
+* NLP-based argument and language analysis
+* Voice and acoustic feature analysis
+* Posture and body-language analysis using MediaPipe
+* **8 ML analysis modules**
+* NLP models trained on **792+ labeled debate samples**
+* Recommendation engine for personalized feedback
+
+**Repository:**
 https://github.com/Yashx073/AI-Debate-Coach
 
 ---
 
-## Technical Skills
+# Technical Skills
 
 ### Languages
 
-Python, SQL
+`Python` `SQL`
 
 ### Machine Learning
 
-* Scikit-learn
-* TensorFlow
-* PyTorch
-* XGBoost
-* Model Evaluation
-* Feature Engineering
+`Scikit-learn` `TensorFlow` `PyTorch` `XGBoost`
+
+`Model Evaluation` `Feature Engineering` `Classification` `Regression`
+
+### Generative AI & RAG
+
+`RAG` `LLMs` `Ollama` `FAISS` `BM25`
+
+`Embeddings` `Cross-Encoder Reranking` `Prompt Engineering`
+
+`LLM Evaluation` `AI Guardrails`
 
 ### ML Engineering
 
-* MLflow
-* FastAPI
-* Experiment Tracking
-* Model Deployment
-* REST APIs
+`MLflow` `FastAPI` `REST APIs`
+
+`Experiment Tracking` `Model Serving` `Model Monitoring`
 
 ### Infrastructure
 
-* Docker
-* Kubernetes
-* PostgreSQL
-* Git
+`Docker` `Kubernetes` `PostgreSQL` `Git`
+
+### Frontend
+
+`React` `Vite` `Tailwind CSS` `Streamlit`
 
 ---
 
-## Connect With Me
+# GitHub Stats
 
-**LinkedIn**
-https://linkedin.com/in/yash-mohadikar-79136825b
+<p align="center">
 
-**Email**
-[yashmohadikar25@gmail.com](mailto:yashmohadikar25@gmail.com)
+<img src="https://github-readme-stats.vercel.app/api?username=Yashx073&show_icons=true&theme=tokyonight" height="170">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashx073&layout=compact&theme=tokyonight" height="170">
+
+</p>
 
 ---
 
-## GitHub Contribution Snake
+# Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -111,8 +155,24 @@ https://linkedin.com/in/yash-mohadikar-79136825b
 
 ---
 
-## GitHub Stats
+# Connect With Me
 
-![](https://github-readme-stats.vercel.app/api?username=Yashx073\&show_icons=true\&theme=tokyonight)
+<p align="left">
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashx073\&layout=compact\&theme=tokyonight)
+<a href="https://linkedin.com/in/yash-mohadikar-79136825b">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:yashmohadikar25@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+### Building ML systems that move from experimentation to production.
+
+</p>
