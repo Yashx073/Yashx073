@@ -2,7 +2,7 @@
 
 ### Machine Learning Engineer · AI Systems · MLOps
 
-Final-year Computer Engineering student building **end-to-end machine learning systems and production-ready AI applications**.
+M.Tech Computer Science and Engineering student at **VIT Vellore**, building end-to-end machine learning systems and production-ready AI applications.
 
 I work across the ML lifecycle — from **data, model development and evaluation to API serving, monitoring, and deployment**.
 
